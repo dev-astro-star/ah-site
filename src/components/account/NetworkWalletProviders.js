@@ -11,7 +11,7 @@ import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { EthereumLogo, BinanceLogo } from "../ui/NetworkLogos";
+import { BinanceLogo } from "../ui/NetworkLogos";
 import { MetamaskLogo, WalletConnectLogo } from "../ui/WalletLogos";
 import Avatar from "@mui/material/Avatar";
 import Badge from "@mui/material/Badge";
@@ -85,12 +85,12 @@ const NetworkWalletProviders = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [library, account]);
 
-  const handleConnectWallet = () => {
-    if (selectedWallet && selectedNetwork) {
-      const walletprovider = `${selectedWallet}_${selectedNetwork}`;
-      connectWallet(walletprovider);
-    }
-  };
+  // const handleConnectWallet = () => {
+  //   if (selectedWallet && selectedNetwork) {
+  //     const walletprovider = `${selectedWallet}_${selectedNetwork}`;
+  //     connectWallet(walletprovider);
+  //   }
+  // };
 
   const connectWallet = async (walletprovider) => {
     localStorage.setItem("connected", true);

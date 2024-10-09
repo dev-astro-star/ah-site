@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import logoArt from "../../assets/images/AgecyHill99.jpg";
-import ReactPlayer from 'react-player'
+//import ReactPlayer from 'react-player'
 
 const HeroSection = () => {
   return (

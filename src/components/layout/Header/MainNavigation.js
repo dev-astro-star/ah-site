@@ -6,7 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Account from "../../account/";
 import Networks from "../../Chains/Networks";
 // import logo from '../../../assets/images/logo-symbol1.svg';
-import logo from '../../../assets/images/logo-elo.png';
+//import logo from '../../../assets/images/logo-elo.png';
 import Navbar from './Navbar';
 import Contracts from '../../shared/Contracts';
 import IconButton from '@mui/material/IconButton';
